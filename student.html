@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Registration Form</title>
+</head>
+<body>
+
+    <h2 align="center">Student Registration Form</h2>
+
+    <form>
+        <table align="center" cellpadding="8">
+
+            <tr>
+                <td>Student Name:</td>
+                <td><input type="text" name="name" required></td>
+            </tr>
+
+            <tr>
+                <td>Roll Number:</td>
+                <td><input type="number" name="rollno" required></td>
+            </tr>
+
+            <tr>
+                <td>Email:</td>
+                <td><input type="email" name="email" required></td>
+            </tr>
+
+            <tr>
+                <td>Mobile Number:</td>
+                <td><input type="tel" name="mobile" required></td>
+            </tr>
+
+            <tr>
+                <td>Date of Birth:</td>
+                <td><input type="date" name="dob" required></td>
+            </tr>
+
+            <tr>
+                <td>Gender:</td>
+                <td>
+                    <input type="radio" name="gender" value="Male"> Male
+                    <input type="radio" name="gender" value="Female"> Female
+                </td>
+            </tr>
+
+            <tr>
+                <td>Course:</td>
+                <td>
+                    <select name="course" required>
+                        <option value="">Select Course</option>
+                        <option>B.Tech</option>
+                        <option>BCA</option>
+                        <option>BBA</option>
+                        <option>B.Sc</option>
+                        <option>MCA</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Address:</td>
+                <td><textarea name="address" rows="3" required></textarea></td>
+            </tr>
+
+            <tr>
+                <td>City:</td>
+                <td><input type="text" name="city" required></td>
+            </tr>
+
+            <tr>
+                <td>PIN Code:</td>
+                <td><input type="text" name="pincode" maxlength="6" required></td>
+            </tr>
+
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </td>
+            </tr>
+
+        </table>
+    </form>
+
+</body>
+</html>
